@@ -42,10 +42,10 @@ public class signup extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
 
 
-        if (fAuth.getCurrentUser() != null) {
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-            finish();
-        }
+//        if (fAuth.getCurrentUser() != null) {
+//            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+//   finish();
+//        }
 
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override

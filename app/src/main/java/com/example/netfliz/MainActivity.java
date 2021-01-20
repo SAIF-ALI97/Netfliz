@@ -82,7 +82,8 @@ public class MainActivity extends AppCompatActivity {
                 openregistration();
             }
 
-            public void openregistration(){
+            public void openregistration()
+            {
                 Intent intent = new Intent(MainActivity.this, signup.class);
                 startActivity(intent);
             }});
