@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1013337755879",
+    "project_id": "netfliz-875b7",
+    "storage_bucket": "netfliz-875b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013337755879:android:28f6b82ddb4db46060d242",
+        "android_client_info": {
+          "package_name": "com.example.netfliz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013337755879-hj214cshsncnii065ha6s9buif2gemjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.netfliz",
+            "certificate_hash": "213791b2e5cea83bd3ec7ce502f9cda3cb2d3fbc"
+          }
+        },
+        {
+          "client_id": "1013337755879-03pr8kjc6odms7ap5uje31o7r6hk1qne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHfDZw-wqzYvg_TYAx0IU3bqytz2O168I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013337755879-03pr8kjc6odms7ap5uje31o7r6hk1qne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

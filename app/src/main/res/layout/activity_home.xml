@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Black">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/slider"
+        android:background="@color/White"
+        app:auto_cycle="true"
+        app:placeholder="@color/Gray"
+        app:error_image="@color/Gray"
+        app:delay="0"
+        app:period="1000"
+        app:corner_radius="10"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/background_signup"
+        android:clickable="true"
+        android:text="Log out"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18dp" />
+</LinearLayout>

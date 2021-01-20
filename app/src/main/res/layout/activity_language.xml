@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".language">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/belgrano"
+        android:text="NETFLIZ"
+        android:textColor="@color/DarkRed"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Selectlang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Language"
+        android:textColor="@color/DarkRed"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/Gray"
+        android:text="English"
+        android:textColor="@color/White"
+        android:textColorHighlight="@color/AliceBlue"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <CheckBox
+        android:id="@+id/hindi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/Gray"
+        android:text="Hindi"
+        android:textColor="@color/White"
+        android:textColorHighlight="@color/AliceBlue"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Button
+        android:id="@+id/signup1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_signup"
+        android:clickable="true"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

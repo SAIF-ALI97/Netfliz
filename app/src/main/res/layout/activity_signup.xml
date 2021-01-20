@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    tools:context=".signup">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/belgrano"
+        android:text="NETFLIZ"
+        android:textColor="@color/DarkRed"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textColorHint="#fff"
+        android:textColor="@color/White"
+        android:maxLines="1"/>
+    <EditText
+        android:inputType="number"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:id="@+id/number"
+        android:hint="Mobile Number"
+        android:textColorHint="#fff"
+        android:textColor="@color/White"
+        android:maxLines="1"
+        android:layout_marginTop="260dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:textColor="@color/White"
+        android:maxLines="1"
+        android:layout_marginTop="320dp"/>
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:id="@+id/repassword"
+        android:hint="Re-enter Password"
+        android:textColorHint="#fff"
+        android:textColor="@color/White"
+        android:maxLines="1"
+        android:layout_marginTop="380dp"/>.
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/background_signup"
+        android:text="Sign Up"
+        android:textColor="@color/White"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:textSize="18dp"/>
+
+   <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/belgrano"
+        android:text="Set Language"
+        android:textColor="@color/White"
+        android:layout_marginLeft="40dp"/>
+
+    <Spinner
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="440dp"
+        android:text="Set Language"
+        android:textColor="@color/White"
+        android:textSize="18dp"
+        android:id="@+id/spinner"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="230dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
